@@ -1887,6 +1887,13 @@ in
           applied after 'programs.dircolors.settings'.
         '';
       }
+      {
+        time = "2021-04-04T10:00:00+00:00";
+        condition = hostPlatform.isLinux;
+        message = ''
+          A new module is available: 'services.pass-secret-service'.
+        '';
+      }
     ];
   };
 }
